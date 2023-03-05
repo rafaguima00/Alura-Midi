@@ -1,0 +1,1 @@
+Site criado com ênfase em codificar funções Javascript com código refatorado e organizado
