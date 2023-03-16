@@ -1,1 +1,3 @@
-Site criado com ênfase em codificar funções Javascript com código refatorado e organizado
+# Alura Midi
+
+Site que toca sons de bateria ao clicar em um botão
