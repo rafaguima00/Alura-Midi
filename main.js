@@ -1,8 +1,3 @@
-//Função com parâmetro é chamada quando clicamos no botão para tocar som
-function tocaSom(idElementAudio) {
-    document.querySelector(idElementAudio).play();
-}
-
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
 for (var i = 0; i < listaDeTeclas.length; i++) {
@@ -19,4 +14,8 @@ for (var i = 0; i < listaDeTeclas.length; i++) {
     tecla.onclick = function () {
         tocaSom(idAudio);
     }
+}
+
+function tocaSom(idElementAudio) {
+    document.querySelector(idElementAudio).play();
 }
